@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/CodeoNordic/vienna-calling-web-components#readme",
   "scripts": {
-    "start": "parcel --no-cache --no-source-maps --no-hmr",
+    "start": "parcel --no-cache --no-hmr",
     "build": "parcel build --no-cache",
     "upload": "npm run build && node upload.js"
   },
@@ -46,18 +46,21 @@
     "@parcel/validator-typescript": "^2.16.4",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
     "cssnano": "^8.0.1",
     "htmlnano": "^3.3.1",
+    "open": "^11.0.0",
     "parcel": "^2.16.4",
     "postcss": "^8.5.15",
     "posthtml": "^0.16.7",
     "posthtml-doctype": "^1.1.1",
     "preact": "^10.29.2",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "typescript": "^6.0.3"
+    "react-dom": "^19.2.6"
   },
-  "dependencies": {
-    "open": "^11.0.0"
+  "@parcel/resolver-default": {
+    "packageExports": true
   }
 }
