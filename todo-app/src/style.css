@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: #F5831F;
+    color: #2f67bd;
     text-align: center;
 }
 
@@ -25,6 +25,7 @@ button {
 }
 
 .create-btn {
+    width: 20%;
     color: springgreen;
     border-color: springgreen;
 }
@@ -39,11 +40,16 @@ button {
 }
 
 .create {
-    width: 20rem;
+    width: 40rem;
     margin: 12px auto;
     display: flex;
     justify-content: center;
     column-gap: 8px;
+}
+
+#title-input {
+    min-width: 80%;
+    padding: 8px 12px;
 }
 
 .todos {
@@ -59,9 +65,9 @@ button {
 }
 
 .todo:nth-child(odd) {
-    background-color: #d75f2f;
+    background-color: #1d5eb3;
 }
 
 .todo:nth-child(even) {
-    background-color: #F5831F;
+    background-color: #3e75c7;
 }

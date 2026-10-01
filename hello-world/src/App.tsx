@@ -4,7 +4,7 @@ import ReactIcon from 'jsx:@icons/React-icon.svg';
 const App = () => {
     return <div className="hello-container">
         <div className="hello">
-            <h1>Hello World!</h1>
+            <h1>Hello Malmö!</h1>
             <ReactIcon className="react-icon" />
             <p>The React App successfully rendered!</p>
         </div>
