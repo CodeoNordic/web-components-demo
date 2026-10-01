@@ -1,5 +1,5 @@
-# Vienna Calling Web Components
-This is all project files used during the "Make your own Web Component from Scratch" session
+# Web Components Demo
+This is all project files used during our Web Components Live Demo.
 
 # Requirements
 - [FileMaker Pro](https://www.claris.com/filemaker/)
