@@ -1,7 +1,7 @@
 {
     "moduleName": "HelloWorld",
     "uploadScript": "UploadHTML",
-    "fmpFile": "vienna-calling-web-components",
+    "fmpFile": "demo",
 
     "optional:server": "example.com"
 }
